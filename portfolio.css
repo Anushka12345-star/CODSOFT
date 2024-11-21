@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header .tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#about p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    margin: 10px 20px;
+    font-size: 1.2em;
+}
+
+
+/* Resume Section */
+#resume {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    background-color: white;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
